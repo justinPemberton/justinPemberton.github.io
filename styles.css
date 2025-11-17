@@ -386,7 +386,7 @@ h1, h2, h3 {
 }
 
 #about p {
-  max-width: 2rem;       /* keeps lines from being too wide */
+  max-width: 400px;       /* keeps lines from being too wide */
   margin: 0 auto;         /* centers the paragraph */
   font-weight: 400;       /* clean, readable weight */
 }

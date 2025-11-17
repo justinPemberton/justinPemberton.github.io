@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Small Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A small website hosted on GitHub Pages." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">MySite</div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+        <div>
+          <h1>Hello, world 👋</h1>
+          <p class="hero-text">
+            This is a simple, low-traffic website hosted on GitHub Pages.  
+            You can edit this text to introduce yourself, your project, or your organization.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Replace this section with a short description about you, your work, or what this website is for.
+          Keep it simple: who you are, what you do, and what visitors can find here.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Project One</h3>
+            <p>
+              Brief description of your first project. You can link to GitHub repos, live demos, or anything else.
+            </p>
+            <a href="#" class="card-link">Learn more →</a>
+          </article>
+
+          <article class="card">
+            <h3>Project Two</h3>
+            <p>
+              Another project or thing you want to highlight. You can remove or duplicate these cards as needed.
+            </p>
+            <a href="#" class="card-link">Learn more →</a>
+          </article>
+
+          <article class="card">
+            <h3>Project Three</h3>
+            <p>
+              Use this slot for a future project, a blog, or any resource you want visitors to see.
+            </p>
+            <a href="#" class="card-link">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          You can customize this form or remove it. GitHub Pages can't handle form submissions by itself,
+          but you can connect a third-party service later (e.g. Formspree, Netlify Forms, etc.).
+        </p>
+        <form class="contact-form" onsubmit="handleFakeSubmit(event)">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary">Send (demo only)</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> MySite. Hosted with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

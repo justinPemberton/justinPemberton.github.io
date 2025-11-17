@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dive Log – Justin Pemberton</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Dive log entries for Justin Pemberton." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Justin Pemberton</div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="divelog.html" class="active">Dive Log</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Dive Log</h1>
+      <p class="hero-text" style="color:#374151; max-width:600px;">
+        A personal record of all my dives — locations, conditions, depth, notes, and experiences.
+        I’ll update this page as I complete more dives.
+      </p>
+
+      <div class="cards">
+
+        <!-- Example Dive Entry -->
+        <article class="card">
+          <h3>Dive #1 — Catalina Island</h3>
+          <p class="meta" style="color:#6b7280; font-size:0.85rem;">
+            Date: June 2025 · Depth: 42 ft · Duration: 41 min
+          </p>
+          <ul style="padding-left:1.2rem; color:#4b5563; font-size:0.95rem;">
+            <li>Warm water, great visibility.</li>
+            <li>Saw 2 garibaldi and a small horn shark.</li>
+            <li>Practiced buoyancy and breathing control.</li>
+          </ul>
+        </article>
+
+        <!-- Another Template Entry -->
+        <article class="card">
+          <h3>Dive #2 — Location Name</h3>
+          <p class="meta" style="color:#6b7280; font-size:0.85rem;">
+            Date: TBD · Depth: TBD · Duration: TBD
+          </p>
+          <p style="color:#4b5563;">
+            Add your notes here when you log your next dive.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Justin Pemberton. Hosted with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

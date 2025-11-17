@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Personal website for Justin Pemberton." />
+  <meta name="description" content="Personal website for Justin Pemberton, hosted on GitHub Pages." />
 
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +22,7 @@
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -39,7 +39,7 @@
             Hi, I'm Justin Pemberton. This is my website where I'll share my resume, projects, and anything else I like.
           </p>
           <div class="hero-actions">
-            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="projects.html" class="btn primary">View Projects</a>
             <a href="#contact" class="btn secondary">Contact Me</a>
           </div>
         </div>
@@ -57,7 +57,14 @@
       </div>
     </section>
 
-  
+    <!-- Projects link -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Click below to see all of my projects.</p>
+        <a href="projects.html" class="btn primary">See Projects →</a>
+      </div>
+    </section>
 
     <!-- Contact -->
     <section id="contact" class="section">
@@ -67,9 +74,8 @@
           You can email me directly at
           <a href="mailto:pemberton.justin9@gmail.com">pemberton.justin9@gmail.com</a>
           or use the demo form below.
-          GitHub Pages can't handle form submissions by itself, but you can connect a third-party
-          service later (e.g. Formspree, Netlify Forms, etc.).
         </p>
+
         <form class="contact-form" onsubmit="handleFakeSubmit(event)">
           <div class="form-row">
             <label for="name">Name</label>
@@ -102,4 +108,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-

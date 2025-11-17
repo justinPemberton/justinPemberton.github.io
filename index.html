@@ -73,36 +73,47 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>
-          You can email me directly at
-          <a href="mailto:pemberton.justin9@gmail.com">pemberton.justin9@gmail.com</a>
-          or use the demo form below.
-        </p>
+   <section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>
+      You can email me directly at
+      <a href="mailto:pemberton.justin9@gmail.com">pemberton.justin9@gmail.com</a>
+      or use the form below.
+    </p>
 
-        <form class="contact-form" onsubmit="handleFakeSubmit(event)">
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name" placeholder="Your name" required />
-          </div>
-
-          <div class="form-row">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" placeholder="you@example.com" required />
-          </div>
-
-          <div class="form-row">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
-          </div>
-
-          <button type="submit" class="btn primary">Send (demo only)</button>
-          <p id="form-status" class="form-status" aria-live="polite"></p>
-        </form>
+    <form
+      class="contact-form"
+      action="mailto:pemberton.justin9@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="Your name" required />
       </div>
-    </section>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" required />
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" class="btn primary">Send</button>
+    </form>
+  </div>
+</section>
+
   </main>
 
   <footer class="site-footer">

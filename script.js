@@ -22,12 +22,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+// script.js
+footer year
 
-// Fake contact form submit handler
-function handleFakeSubmit(event) {
-  event.preventDefault();
-  const status = document.getElementById("form-status");
-  if (status) {
-    status.textContent = "This form is a demo only. Connect a form service to make it work for real.";
-  }
+// Mobile nav toggle
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+if (navToggle && navLinks) {
+  navToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("is-open");
+  });
 }

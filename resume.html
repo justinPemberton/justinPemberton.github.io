@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
+
+  <!-- HEADER -->
   <header class="site-header">
     <div class="container nav-container">
       <div class="logo">Justin Pemberton</div>
@@ -18,7 +20,7 @@
         <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
         <ul class="nav-links">
           <li><a href="index.html#home">Home</a></li>
-         
+          <li><a href="index.html#about">About</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="resume.html" class="active">Resume</a></li>
           <li><a href="divelog.html">Dive/HikeLog</a></li>
@@ -28,118 +30,187 @@
     </div>
   </header>
 
+  <!-- MAIN -->
   <main class="section">
     <div class="container resume">
+
+      <!-- NAME + CONTACT -->
       <header class="resume-header">
         <h1>Justin Pemberton</h1>
         <p class="resume-tagline">Computer Science · Cloud Computing · Linux & Open-Source</p>
         <p class="resume-contact">
+          <span>(424) 581-9412</span> · 
           <a href="mailto:pemberton.justin9@gmail.com">pemberton.justin9@gmail.com</a>
-          · GitHub: <a href="https://github.com/" target="_blank" rel="noreferrer">your-github</a>
-          · Location: California, USA
         </p>
       </header>
 
+      <!-- SUMMARY -->
       <section class="resume-section">
         <h2>Summary</h2>
         <p>
-          Computer science student with an A.A. in Cloud Computing, hands-on experience with Linux,
-          Git, and open-source tools. Interested in security, systems, and automation. Comfortable
-          working on both command line and higher-level app code.
+          Founder of Kaleidoscope Computing with experience across cloud computing, Linux systems,
+          open-source development, hardware repair, technical tutoring, and community service.
+          Strong background in programming, system administration, and hands-on engineering workflows.
         </p>
       </section>
 
-      <section class="resume-section">
-        <h2>Skills</h2>
-        <div class="resume-grid">
-          <div>
-            <h3>Languages</h3>
-            <ul>
-              <li>Python</li>
-              <li>C / C++</li>
-              <li>Bash</li>
-              <li>HTML / CSS / JavaScript</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Tools & Tech</h3>
-            <ul>
-              <li>Linux (Fedora, Debian, etc.)</li>
-              <li>Git & GitHub</li>
-              <li>Docker / containers</li>
-              <li>VS Code, terminal-first workflows</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Cloud & Infra</h3>
-            <ul>
-              <li>Cloud fundamentals (A.A. in Cloud Computing)</li>
-              <li>Basic networking & security concepts</li>
-              <li>Shell scripting & automation</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="resume-section">
-        <h2>Projects</h2>
-        <div class="resume-list">
-          <article>
-            <h3>Project Name 1</h3>
-            <p class="meta">Personal project · GitHub link here</p>
-            <ul>
-              <li>One bullet about what you built or solved.</li>
-              <li>Another bullet with tech stack (e.g. Python, Pygame, Raspberry Pi).</li>
-            </ul>
-          </article>
-
-          <article>
-            <h3>Project Name 2</h3>
-            <p class="meta">School or club project</p>
-            <ul>
-              <li>Describe main goal or problem.</li>
-              <li>List your specific contribution.</li>
-            </ul>
-          </article>
-        </div>
-        <p>
-          See more on the <a href="projects.html">Projects page</a>.
-        </p>
-      </section>
-
+      <!-- EDUCATION -->
       <section class="resume-section">
         <h2>Education</h2>
         <div class="resume-list">
           <article>
-            <h3>A.A. in Cloud Computing</h3>
-            <p class="meta">College name · Graduation year</p>
-            <ul>
-              <li>Relevant coursework: Linux, networking, security, cloud platforms, scripting.</li>
-            </ul>
+            <h3>Associate of Science, Computer Science</h3>
+            <p class="meta">Santa Monica College · Santa Monica, California</p>
           </article>
-
           <article>
-            <h3>Computer Science Coursework</h3>
-            <p class="meta">Ongoing</p>
-            <ul>
-              <li>Courses like data structures, discrete math, and systems programming.</li>
-            </ul>
+            <h3>Certificate of Achievement</h3>
+            <p class="meta">Santa Monica College · Santa Monica, California</p>
           </article>
+        </div>
+        <p><strong>Relevant Coursework:</strong> Internet Programming, Linux Administration, Digital Security</p>
+        <p><strong>Campus Involvement:</strong> Computer Science Club · CS/CSIS Tutoring Program</p>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="resume-section">
+        <h2>Training & Certifications</h2>
+        <ul>
+          <li><strong>AWS Certified Cloud Practitioner</strong>, Amazon</li>
+          <li><strong>Algorithms & Data Structures (JavaScript)</strong>, Free Bootcamp</li>
+        </ul>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="resume-section">
+        <h2>Skills</h2>
+        <div class="resume-grid">
+          <div>
+            <h3>Programming</h3>
+            <ul>
+              <li>C++</li>
+              <li>PHP (Backend)</li>
+              <li>Bash</li>
+              <li>Python</li>
+              <li>JavaScript (ES6)</li>
+              <li>Java</li>
+              <li>HTML5</li>
+              <li>YAML</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Systems</h3>
+            <ul>
+              <li>Linux Administration (Fedora, Debian, Alpine)</li>
+              <li>Raspberry Pi & embedded systems</li>
+              <li>Shell scripting & automation</li>
+              <li>System configuration & debugging</li>
+              <li>Hardware repair & diagnostics</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Cloud & Security</h3>
+            <ul>
+              <li>AWS & Oracle Cloud fundamentals</li>
+              <li>VPN & ad-blocking infrastructure</li>
+              <li>Security basics & system hardening</li>
+            </ul>
+          </div>
         </div>
       </section>
 
+      <!-- EXPERIENCE -->
       <section class="resume-section">
-        <h2>Experience (Optional)</h2>
-        <p>
-          Add any work, volunteer, club, or tutoring experience here. Even if it’s informal, list what you actually did.
-        </p>
+        <h2>Experience</h2>
+        <div class="resume-list">
+
+          <!-- KDS MAIN EXPERIENCE -->
+          <article>
+            <h3>Founder / Lead Technologist</h3>
+            <p class="meta">Kaleidoscope Computing (KDS) · July 2024 – Present · California</p>
+            <ul>
+              <li>Established Kaleidoscope Computing as a personal engineering, development, and systems operations studio.</li>
+              <li>Develop software tools, automation scripts, and system utilities across C++, Python, Bash, PHP, and JavaScript.</li>
+              <li>Design, deploy, and maintain cloud infrastructure including VPNs, DNS blocking, servers, and security-hardened Linux systems.</li>
+              <li>Provide community technical support, hardware repair, BIOS recovery, OS installation, and system diagnostics.</li>
+              <li>Participate in hackathons and CTF events with multiple 1st–place finishes.</li>
+              <li>Document workflows, development pipelines, and Linux configurations for repeatability and open-source contribution.</li>
+            </ul>
+          </article>
+
+          <!-- FULLERTON TUTORING -->
+          <article>
+            <h3>Computer Science Tutor</h3>
+            <p class="meta">Fullerton College · January 2023 – June 2024 · Fullerton, CA</p>
+            <ul>
+              <li>Supported students in computer science fundamentals and intermediate programming courses.</li>
+              <li>Assisted with C++, data structures, Linux, project logic, and debugging skills.</li>
+              <li>Helped students prepare for tests, complete assignments, and build strong problem-solving approaches.</li>
+            </ul>
+          </article>
+
+          <!-- SMC TUTORING -->
+          <article>
+            <h3>Computer Science Tutor</h3>
+            <p class="meta">Santa Monica College · January 2021 – December 2022 · Santa Monica, CA</p>
+            <ul>
+              <li>Tutored students in C++, Python, JavaScript, Bash, and Linux command-line workflows.</li>
+              <li>Explained complex programming concepts through individualized learning sessions.</li>
+              <li>Provided troubleshooting support for compilers, IDE setup, and operating system issues.</li>
+            </ul>
+          </article>
+
+          <!-- HACK FOR LA -->
+          <article>
+            <h3>Volunteer – Ops Team Member</h3>
+            <p class="meta">Hack for LA · June 2021 – March 2023 · Santa Monica, CA</p>
+            <ul>
+              <li>Documented AWS resources and multi-cloud development pipelines.</li>
+              <li>Improved AMI security configuration and deployment workflows.</li>
+            </ul>
+          </article>
+
+          <!-- SALVATION ARMY IT -->
+          <article>
+            <h3>Volunteer – IT Assistant</h3>
+            <p class="meta">The Salvation Army · June 2018 – January 2019 · Los Angeles, CA</p>
+            <ul>
+              <li>Performed hardware repair, replacement, and diagnostics in the electronics warehouse.</li>
+              <li>Increased resale value of donated computers through creative repair and refurbishment.</li>
+              <li>Recovered systems with corrupted BIOS/software, raising value from $10 to over $2,500.</li>
+            </ul>
+          </article>
+
+          <!-- FOOD OUTREACH -->
+          <article>
+            <h3>Volunteer – Homeless Outreach & Food Distribution</h3>
+            <p class="meta">The Salvation Army · January 2015 – Present · Denver / San Diego / Santa Monica</p>
+            <ul>
+              <li>Distributed over 7,500 meals to families and individuals in need.</li>
+              <li>Connected people to shelters, housing programs, and family resources.</li>
+              <li>Supported individuals overcoming substance abuse reconnect with their families.</li>
+            </ul>
+          </article>
+
+        </div>
       </section>
+
+      <!-- COMPETITIONS -->
+      <section class="resume-section">
+        <h2>Competitions</h2>
+        <ul>
+          <li><strong>Scale 20x CTF</strong> – 2nd Place</li>
+          <li><strong>Talk Agent Hack</strong> – 1st Place</li>
+          <li><strong>Talk Agent Hack #2</strong> – 1st Place</li>
+        </ul>
+      </section>
+
     </div>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Justin Pemberton. </p>
+      <p>© <span id="year"></span> Justin Pemberton. Hosted with GitHub Pages.</p>
     </div>
   </footer>
 

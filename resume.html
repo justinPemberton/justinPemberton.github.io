@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume – Justin Pemberton</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Resume of Justin Pemberton." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Justin Pemberton</div>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html" class="active">Resume</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container resume">
+      <header class="resume-header">
+        <h1>Justin Pemberton</h1>
+        <p class="resume-tagline">Computer Science · Cloud Computing · Linux & Open-Source</p>
+        <p class="resume-contact">
+          <a href="mailto:pemberton.justin9@gmail.com">pemberton.justin9@gmail.com</a>
+          · GitHub: <a href="https://github.com/" target="_blank" rel="noreferrer">your-github</a>
+          · Location: California, USA
+        </p>
+      </header>
+
+      <section class="resume-section">
+        <h2>Summary</h2>
+        <p>
+          Computer science student with an A.A. in Cloud Computing, hands-on experience with Linux,
+          Git, and open-source tools. Interested in security, systems, and automation. Comfortable
+          working on both command line and higher-level app code.
+        </p>
+      </section>
+
+      <section class="resume-section">
+        <h2>Skills</h2>
+        <div class="resume-grid">
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>C / C++</li>
+              <li>Bash</li>
+              <li>HTML / CSS / JavaScript</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools & Tech</h3>
+            <ul>
+              <li>Linux (Fedora, Debian, etc.)</li>
+              <li>Git & GitHub</li>
+              <li>Docker / containers</li>
+              <li>VS Code, terminal-first workflows</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Cloud & Infra</h3>
+            <ul>
+              <li>Cloud fundamentals (A.A. in Cloud Computing)</li>
+              <li>Basic networking & security concepts</li>
+              <li>Shell scripting & automation</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section">
+        <h2>Projects</h2>
+        <div class="resume-list">
+          <article>
+            <h3>Project Name 1</h3>
+            <p class="meta">Personal project · GitHub link here</p>
+            <ul>
+              <li>One bullet about what you built or solved.</li>
+              <li>Another bullet with tech stack (e.g. Python, Pygame, Raspberry Pi).</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Project Name 2</h3>
+            <p class="meta">School or club project</p>
+            <ul>
+              <li>Describe main goal or problem.</li>
+              <li>List your specific contribution.</li>
+            </ul>
+          </article>
+        </div>
+        <p>
+          See more on the <a href="projects.html">Projects page</a>.
+        </p>
+      </section>
+
+      <section class="resume-section">
+        <h2>Education</h2>
+        <div class="resume-list">
+          <article>
+            <h3>A.A. in Cloud Computing</h3>
+            <p class="meta">College name · Graduation year</p>
+            <ul>
+              <li>Relevant coursework: Linux, networking, security, cloud platforms, scripting.</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Computer Science Coursework</h3>
+            <p class="meta">Ongoing</p>
+            <ul>
+              <li>Courses like data structures, discrete math, and systems programming.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="resume-section">
+        <h2>Experience (Optional)</h2>
+        <p>
+          Add any work, volunteer, club, or tutoring experience here. Even if it’s informal, list what you actually did.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Justin Pemberton. Hosted with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

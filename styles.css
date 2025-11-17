@@ -379,3 +379,21 @@ h1, h2, h3 {
   background: rgba(15, 23, 42, 0.7);
 }
 
+/* About Section Readability Upgrade */
+#about {
+  font-size: 1.2rem;      /* bigger text */
+  line-height: 1.8;       /* more spacing between lines */
+}
+
+#about p {
+  max-width: 800px;       /* keeps lines from being too wide */
+  margin: 0 auto;         /* centers the paragraph */
+  font-weight: 400;       /* clean, readable weight */
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
